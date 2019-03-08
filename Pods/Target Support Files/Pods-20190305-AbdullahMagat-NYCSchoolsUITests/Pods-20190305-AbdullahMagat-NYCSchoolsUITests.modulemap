@@ -1,0 +1,6 @@
+framework module Pods_20190305_AbdullahMagat_NYCSchoolsUITests {
+  umbrella header "Pods-20190305-AbdullahMagat-NYCSchoolsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

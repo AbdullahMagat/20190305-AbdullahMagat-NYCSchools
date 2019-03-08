@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.8.0)
+  - lottie-ios (2.5.2)
+  - ObjectMapper (3.4.2)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - lottie-ios
+  - ObjectMapper
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - lottie-ios
+    - ObjectMapper
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: b988a27bbd3b275f80afb6f52e88eb17f4986385
+
+COCOAPODS: 1.5.3

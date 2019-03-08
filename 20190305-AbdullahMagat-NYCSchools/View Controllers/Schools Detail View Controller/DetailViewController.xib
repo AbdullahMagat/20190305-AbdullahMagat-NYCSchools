@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="_0190305_AbdullahMagat_NYCSchools" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController id="vi2-Fs-07l" customClass="DetailViewController" customModule="_0190223_AbdullahMagat_NYCSchools" customModuleProvider="target">
+            <view key="view" contentMode="scaleToFill" id="QyR-uh-3lJ">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iXK-Rf-NE5">
+                        <rect key="frame" x="31.5" y="200" width="312.5" height="267"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="school dark" translatesAutoresizingMaskIntoConstraints="NO" id="yr9-o4-ebI">
+                                <rect key="frame" x="122.5" y="0.0" width="67" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="yr9-o4-ebI" secondAttribute="height" multiplier="1:1" id="4gU-tQ-DMQ"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="H3R-94-InW">
+                                <rect key="frame" x="5" y="67" width="302.5" height="133"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="school_name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2DG-Wy-ACU">
+                                        <rect key="frame" x="0.0" y="0.0" width="302.5" height="26.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                        <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAT SCORES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="geu-F3-5GM">
+                                        <rect key="frame" x="0.0" y="26.5" width="302.5" height="26.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="math" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kWr-M4-EqU">
+                                        <rect key="frame" x="0.0" y="53" width="302.5" height="27"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="reading" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W0C-Ri-cVP">
+                                        <rect key="frame" x="0.0" y="80" width="302.5" height="26.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="writing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0Y-O1-kGV">
+                                        <rect key="frame" x="0.0" y="106.5" width="302.5" height="26.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="nFB-Nj-tNN">
+                                <rect key="frame" x="5" y="205" width="302.5" height="57"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lu5-TU-sa0">
+                                        <rect key="frame" x="0.0" y="0.0" width="134.5" height="57"/>
+                                        <color key="backgroundColor" red="0.99406706759999997" green="1" blue="0.81779617110000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Get Contact">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.14901960780000001" green="0.7725490196" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="getContactWithSchool:" destination="vi2-Fs-07l" eventType="touchUpInside" id="C78-8C-lCW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="itF-lQ-VHV">
+                                        <rect key="frame" x="167.5" y="0.0" width="135" height="57"/>
+                                        <color key="backgroundColor" red="0.99406706759999997" green="1" blue="0.81779617110000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Get Direction">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.95294117649999999" green="0.43529411759999997" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="getDirectionsToSchool:" destination="vi2-Fs-07l" eventType="touchUpInside" id="2Va-Gb-mlP"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="H3R-94-InW" firstAttribute="height" secondItem="iXK-Rf-NE5" secondAttribute="height" multiplier="1:2" id="0J2-Ha-WSm"/>
+                            <constraint firstItem="yr9-o4-ebI" firstAttribute="centerX" secondItem="iXK-Rf-NE5" secondAttribute="centerX" id="6NK-Fo-1yT"/>
+                            <constraint firstItem="yr9-o4-ebI" firstAttribute="top" secondItem="ZYs-a0-AuA" secondAttribute="top" id="IFe-hi-6Qb"/>
+                            <constraint firstItem="H3R-94-InW" firstAttribute="top" secondItem="yr9-o4-ebI" secondAttribute="bottom" id="Tms-6A-PZD"/>
+                            <constraint firstItem="yr9-o4-ebI" firstAttribute="height" secondItem="iXK-Rf-NE5" secondAttribute="height" multiplier="1:4" id="U6G-m1-UXf"/>
+                            <constraint firstItem="ZYs-a0-AuA" firstAttribute="trailing" secondItem="nFB-Nj-tNN" secondAttribute="trailing" constant="5" id="Vln-U0-HZ2"/>
+                            <constraint firstItem="nFB-Nj-tNN" firstAttribute="top" secondItem="H3R-94-InW" secondAttribute="bottom" constant="5" id="YpS-5Y-w8X"/>
+                            <constraint firstItem="ZYs-a0-AuA" firstAttribute="trailing" secondItem="H3R-94-InW" secondAttribute="trailing" constant="5" id="Znk-Mn-cfy"/>
+                            <constraint firstAttribute="bottom" secondItem="nFB-Nj-tNN" secondAttribute="bottom" constant="5" id="cf0-S2-aMQ"/>
+                            <constraint firstItem="nFB-Nj-tNN" firstAttribute="leading" secondItem="ZYs-a0-AuA" secondAttribute="leading" constant="5" id="fbp-FR-fqc"/>
+                            <constraint firstItem="H3R-94-InW" firstAttribute="leading" secondItem="ZYs-a0-AuA" secondAttribute="leading" constant="5" id="wN2-dL-1jc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZYs-a0-AuA"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="iXK-Rf-NE5" firstAttribute="height" secondItem="QyR-uh-3lJ" secondAttribute="height" multiplier="2:5" id="1dz-xY-2Ek"/>
+                    <constraint firstItem="iXK-Rf-NE5" firstAttribute="centerY" secondItem="QyR-uh-3lJ" secondAttribute="centerY" id="3KA-rc-NxQ"/>
+                    <constraint firstItem="iXK-Rf-NE5" firstAttribute="width" secondItem="QyR-uh-3lJ" secondAttribute="width" multiplier="2.5:3" id="Zq0-Ww-ekJ"/>
+                    <constraint firstItem="iXK-Rf-NE5" firstAttribute="centerX" secondItem="QyR-uh-3lJ" secondAttribute="centerX" id="req-v4-OS8"/>
+                </constraints>
+                <viewLayoutGuide key="safeArea" id="d7o-dd-feP"/>
+            </view>
+            <connections>
+                <outlet property="backView" destination="QyR-uh-3lJ" id="UXa-yL-iCg"/>
+                <outlet property="mainView" destination="iXK-Rf-NE5" id="9En-Ba-ryc"/>
+                <outlet property="mathScore" destination="kWr-M4-EqU" id="iGm-pf-FM3"/>
+                <outlet property="readingScore" destination="W0C-Ri-cVP" id="qj5-9K-yOL"/>
+                <outlet property="schoolName" destination="2DG-Wy-ACU" id="UdW-8r-Veu"/>
+                <outlet property="writingScore" destination="L0Y-O1-kGV" id="Vos-pI-GIf"/>
+            </connections>
+            <point key="canvasLocation" x="-679.20000000000005" y="-647.22638680659679"/>
+        </viewController>
+    </objects>
+    <resources>
+        <image name="school dark" width="75" height="75"/>
+    </resources>
+</document>
